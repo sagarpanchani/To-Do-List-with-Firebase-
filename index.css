@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Lobster&family=Open+Sans:wght@300&family=Righteous&family=Ubuntu:wght@500&display=swap');
+
+#main_div {
+  background-color: white;
+  max-width: 700px;
+  min-width: 300px;
+  max-height: 100%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 50px 0px 50px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+input {
+  width: 55%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+._text {
+  margin-right: 50px;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+
+text-align: justify;
+}
+#input_section {
+  display: flex;
+  justify-content: center;
+}
+
+#addpost {
+  max-width: 105px;
+  min-width: 80px;
+  border: none;
+  height: 35px;
+  background-color: #277ffd;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.deltbtn {
+  /* margin-left: 170px; */
+  width: 60px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+.editbtn {
+  margin-right: 15px;
+  width: 60px;
+  background-color: #277ffd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+li {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-height: 50px;
+  max-height: 100%;
+  max-width: 70%;
+  min-width: 20%;
+  padding: 30px ;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.div1 {
+  width: 300px;
+}
+#removeAll {
+  width: 100px;
+  background-color: #fa9c05;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#user_list {
+  display: flex;
+  flex-direction: column-reverse;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .editbtn {
+    margin-bottom: 5px;
+  }
+  li {
+   padding: 30px 0px 30px 30px ;
+   max-width: 77%;
+   min-width: 20%;;
+  }
+}
